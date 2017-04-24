@@ -7,21 +7,27 @@ public class wolfText : MonoBehaviour {
 
 	public Button textButton;
 	public Text displayText;
+	public TextMesh textMesh;
 	bool display = false;
 
 	// Use this for initialization
 	void Start() {
-		displayText.text = "";
+//		displayText.text = "";
+		textMesh = GameObject.Find ("WolfText3D").GetComponent<TextMesh> ();
+		textMesh.text = "";
 		textButton.onClick.AddListener(DisplayText);
 	}
 
 	public void DisplayText() {
 		if (!display) {
-			displayText.text = "Hey! This is a wolf!";
+//			displayText.text = "Hey! This is a wolf!";
+//			GetComponent<TextMesh> ().text = "Hello wolf";
+			textMesh.text = "Hello Wolf";
 			Debug.Log ("Touched");
 			display = true;
 		} else {
-			displayText.text = "";
+//			displayText.text = "";
+			textMesh.text = "";
 			display = false;
 		}
 	}
