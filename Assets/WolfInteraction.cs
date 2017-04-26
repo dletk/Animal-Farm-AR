@@ -31,7 +31,7 @@ public class WolfInteraction : MonoBehaviour {
 			wolfText.text = potentialWarning;
 			if (potentialWarning == "Found Tiger") {
 				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("sound");
-//				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("hit");
+				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("hit");
 			} else {
 				GameObject.Find ("kitten").GetComponent<Animation> ().Play ("IdleSit");
 			}
