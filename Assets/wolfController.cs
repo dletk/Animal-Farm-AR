@@ -21,14 +21,14 @@ public class wolfController : MonoBehaviour {
 
 		Vector3 movement = new Vector3 (x, 0, y);
 
-		rigid.velocity = movement * 5f;
+		rigid.velocity = movement * 2f;
 
 		if (x != 0 && y != 0) {
 			transform.eulerAngles = new Vector3 (transform.eulerAngles.x, Mathf.Atan2 (x, y) * Mathf.Rad2Deg, transform.eulerAngles.z);
 		}
 
 		if (x != 0 || y != 0) {
-			anim.Play ("run");
+			anim.Play ("Walk");
 		} else {
 			anim.Play ("Idle");
 		}

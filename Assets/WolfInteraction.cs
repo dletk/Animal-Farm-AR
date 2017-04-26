@@ -15,12 +15,12 @@ public class WolfInteraction : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		distanceToTiger = Vector3.Distance (gameObject.transform.position, tigerPosition.position);
-		Debug.Log ("-------> Distance: " + distanceToTiger);
+//		Debug.Log ("-------> Distance: " + distanceToTiger);
 		TextMesh wolfText = GameObject.Find ("WolfText3D").GetComponent<TextMesh> ();
-		if (distanceToTiger <= 10) {
+		if (distanceToTiger <= 5) {
 			wolfText.text = "Found Tiger";
 		} else {
-			wolfText.text = "Hello, Wolf!";
+			wolfText.text = "";
 		}
 	}
 }

@@ -161,7 +161,7 @@ ModelImporter:
     7400004: Idle
     7400006: run
     7400008: Wolf_Skeleton|Wolf_seat_
-    7400010: Wolf_Skeleton|Wolf_Walk_cycle_
+    7400010: Walk
     9500000: //RootNode
     11100000: //RootNode
     13700000: Wolf_obj_body
@@ -1063,11 +1063,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Wolf_Skeleton|Wolf_Walk_cycle_
+      name: Walk
       takeName: Wolf_Skeleton|Wolf_Walk_cycle_
       firstFrame: 0
       lastFrame: 40
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
