@@ -29,8 +29,16 @@ public class WolfInteraction : MonoBehaviour {
 		}
 		if (distanceToTiger <= 5 || distanceToKitten <= 5) {
 			wolfText.text = potentialWarning;
+			if (potentialWarning == "Found Tiger") {
+				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("sound");
+//				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("hit");
+			} else {
+				GameObject.Find ("kitten").GetComponent<Animation> ().Play ("IdleSit");
+			}
 		} else {
 			wolfText.text = "";
+			GameObject.Find("kitten").GetComponent<Animation>().Play("Idle");
+			GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("idle");
 		}
 	}
 }
