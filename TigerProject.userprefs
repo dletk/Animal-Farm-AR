@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/wolfController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WolfInteraction.cs">
     <Files>
-      <File FileName="Assets/WolfInteraction.cs" Line="26" Column="37" />
+      <File FileName="Assets/LeanTouch/Examples/Scripts/LeanTapSelect.cs" Line="13" Column="3" />
+      <File FileName="Assets/WolfInteraction.cs" Line="31" Column="37" />
       <File FileName="Assets/wolfController.cs" Line="34" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -19,7 +19,6 @@ public class WolfInteraction : MonoBehaviour {
 	void Update () {
 		distanceToTiger = Vector3.Distance (gameObject.transform.position, tigerTransform.position);
 		distanceToKitten = Vector3.Distance (gameObject.transform.position, kittenTransform.position);
-//		Debug.Log ("-------> Distance: " + distanceToTiger);
 		TextMesh wolfText = GameObject.Find ("WolfText3D").GetComponent<TextMesh> ();
 		string potentialWarning;
 		if (distanceToTiger < distanceToKitten) {

@@ -62,14 +62,15 @@
      <None Include="Assets\LeanTouch\Examples\Shaders\BackgroundSkybox.shader" />
      <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\FinalProject494.xml" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Horse\SoftAlpha.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\FinalProject494.xml" />
      <None Include="Assets\StreamingAssets\QCAR\tigerDatabase.xml" />
      <None Include="Assets\StreamingAssets\QCAR\dollarDatabase.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
