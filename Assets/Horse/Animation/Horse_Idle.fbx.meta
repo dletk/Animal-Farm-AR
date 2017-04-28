@@ -93,8 +93,9 @@ ModelImporter:
     400084: Volume02
     400086: Volume03
     400088: Volume04
-    7400000: Horse_Idle
+    7400000: Idle
     9500000: //RootNode
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -119,11 +120,11 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Horse_Idle
+      name: Idle
       takeName: Take 001
       firstFrame: 0
       lastFrame: 120
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -274,11 +275,10 @@ ModelImporter:
     rootMotionBoneName: Root
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a85d92b72304a79449904f3b49e3d5ea,
-    type: 3}
-  animationType: 2
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
