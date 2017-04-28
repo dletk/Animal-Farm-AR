@@ -30,7 +30,15 @@ public class WolfInteraction : MonoBehaviour {
 			wolfText.text = potentialWarning;
 			if (potentialWarning == "Found Tiger") {
 //				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("sound");
-				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("hit");
+				GameObject tiger = GameObject.Find("tiger_idle");
+				// Make the tiger use the running animation
+				tiger.GetComponent<Animation> ().Play ("run");
+				// Find the direction from the tiger to the wolf
+				Vector3 direction = (gameObject.transform.position - tiger.transform.position).normalized;
+				// Moving the tiger along the direction
+				tiger.transform.position += direction * 0.03f;
+				// Rotate the tiger so its face will be toward the wolf
+				tiger.transform.eulerAngles = new Vector3 (tiger.transform.eulerAngles.x, Mathf.Atan2 (direction.x, direction.z) * Mathf.Rad2Deg, tiger.transform.eulerAngles.z);
 			} else {
 				GameObject.Find ("kitten").GetComponent<Animation> ().Play ("IdleSit");
 			}
