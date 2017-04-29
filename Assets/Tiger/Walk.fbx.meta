@@ -708,7 +708,7 @@ ModelImporter:
     400698: TSMGWorldJoint
     400700: //RootNode
     4300000: Tiger_Mesh
-    7400000: walk
+    7400000: Walk
     9500000: //RootNode
     11100000: //RootNode
     13700000: Tiger_Mesh
@@ -736,7 +736,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: walk
+      name: Walk
       takeName: Take 001
       firstFrame: 1
       lastFrame: 24

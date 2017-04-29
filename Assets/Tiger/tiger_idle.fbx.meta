@@ -712,7 +712,7 @@ ModelImporter:
     400702: TSMG_upper_body_buffer
     400704: TSMGWorldJoint
     4300000: Tiger_Mesh
-    7400000: idle
+    7400000: Idle
     9500000: //RootNode
     11100000: //RootNode
     13700000: Tiger_Mesh
@@ -740,7 +740,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: idle
+      name: Idle
       takeName: Take 001
       firstFrame: 1
       lastFrame: 143

@@ -124,6 +124,7 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\WolfInteraction.cs" />
+     <Compile Include="Assets\animalController.cs" />
      <Compile Include="Assets\horseController.cs" />
      <Compile Include="Assets\kittenController.cs" />
      <Compile Include="Assets\tigerController.cs" />

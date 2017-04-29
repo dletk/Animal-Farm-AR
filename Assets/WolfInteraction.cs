@@ -32,7 +32,7 @@ public class WolfInteraction : MonoBehaviour {
 //				GameObject.Find ("tiger_idle").GetComponent<Animation> ().Play ("sound");
 				GameObject tiger = GameObject.Find("tiger_idle");
 				// Make the tiger use the running animation
-				tiger.GetComponent<Animation> ().Play ("run");
+				tiger.GetComponent<Animation> ().Play ("Run");
 				// Find the direction from the tiger to the wolf
 				Vector3 direction = (gameObject.transform.position - tiger.transform.position).normalized;
 				// Moving the tiger along the direction

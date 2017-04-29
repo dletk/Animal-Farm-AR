@@ -708,7 +708,7 @@ ModelImporter:
     400698: TSMG_upper_body_buffer
     400700: TSMGWorldJoint
     4300000: Tiger_Mesh
-    7400000: run
+    7400000: Run
     9500000: //RootNode
     11100000: //RootNode
     13700000: Tiger_Mesh
@@ -736,7 +736,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: run
+      name: Run
       takeName: Take 001
       firstFrame: 1
       lastFrame: 11
