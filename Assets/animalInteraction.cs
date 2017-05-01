@@ -39,18 +39,23 @@ public class animalInteraction : MonoBehaviour {
 			distanceToWolf = Vector3.Distance (currentSelected.transform.position, wolf.transform.position);
 			distanceToHorse = Vector3.Distance (currentSelected.transform.position, horse.transform.position);
 			if (reactor == tiger) {
-				if (currentSelected == kitten || currentSelected == horse) {
+				ReactorChase ();
+			} else if (reactor == wolf) {
+				if (currentSelected == horse || currentSelected == kitten) {
 					ReactorChase ();
 				} else {
 					ReactorRunAway ();
 				}
-			} else if (reactor == wolf) {
-				// Do something
 			} else if (reactor == kitten) {
-				// Do something
+				if (currentSelected == wolf || currentSelected == tiger) {
+					ReactorRunAway ();
+				}
 			} else if (reactor == horse) {
-				// Do something
+				if (currentSelected == wolf || currentSelected == tiger) {
+					ReactorRunAway ();
+				}
 			} else {
+				
 			}
 //			TextMesh wolfText = GameObject.Find ("WolfText3D").GetComponent<TextMesh> ();
 //			string potentialWarning;
