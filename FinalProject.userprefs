@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/wolfText.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/resetScript.cs">
     <Files>
-      <File FileName="Assets/animalInteraction.cs" Line="14" Column="36" />
-      <File FileName="Assets/WolfInteraction.cs" Line="1" Column="1" />
-      <File FileName="Assets/animalController.cs" Line="18" Column="35" />
       <File FileName="Assets/soundScript.cs" Line="15" Column="3" />
+      <File FileName="Assets/animalInteraction.cs" Line="115" Column="93" />
+      <File FileName="Assets/WolfInteraction.cs" Line="1" Column="1" />
+      <File FileName="Assets/animalController.cs" Line="11" Column="42" />
       <File FileName="Assets/wolfText.cs" Line="22" Column="18" />
+      <File FileName="Assets/soundPlayScript.cs" Line="32" Column="39" />
+      <File FileName="Assets/resetScript.cs" Line="24" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
