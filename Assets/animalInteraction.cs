@@ -63,6 +63,7 @@ public class animalInteraction : MonoBehaviour {
 	void DetermineReactor() {
 		float minDistance = DetermineMinDistance ();
 		float boundary = 5;
+		GameObject lastReactor = reactor;
 		if (minDistance < boundary) {
 			if (minDistance == distanceToWolf) {
 				reactor = wolf;
@@ -75,6 +76,10 @@ public class animalInteraction : MonoBehaviour {
 			} 
 		} else {
 			reactor = null;
+		}
+		// Make last reactor becomes idle animation
+		if (reactor != lastReactor) {
+			lastReactor.GetComponent<Animation> ().Play ("Idle");
 		}
 	}
 
@@ -96,7 +101,7 @@ public class animalInteraction : MonoBehaviour {
 		float chaseVelocity = 0.03f;
 		reactor.GetComponent<Animation> ().Play ("Run");
 		// Find the direction from the reactor to the currentSelected animal
-		Vector3 direction = (currentSelected.transform.position - tiger.transform.position).normalized;
+		Vector3 direction = (currentSelected.transform.position - reactor.transform.position).normalized;
 		// Moving the reactor along the direction
 		reactor.transform.position += direction * chaseVelocity;
 		// Rotate the reactor so its face will be toward the currentSelected animal
