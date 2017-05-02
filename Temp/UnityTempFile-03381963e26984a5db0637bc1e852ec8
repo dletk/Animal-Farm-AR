@@ -176,6 +176,8 @@
 'Assets/horseController.cs'
 'Assets/kittenController.cs'
 'Assets/resetScript.cs'
+'Assets/soundPlayScript.cs'
+'Assets/soundScript.cs'
 'Assets/tigerController.cs'
 'Assets/wolfController.cs'
 'Assets/wolfText.cs'

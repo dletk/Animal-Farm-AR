@@ -129,6 +129,8 @@
      <Compile Include="Assets\horseController.cs" />
      <Compile Include="Assets\kittenController.cs" />
      <Compile Include="Assets\resetScript.cs" />
+     <Compile Include="Assets\soundPlayScript.cs" />
+     <Compile Include="Assets\soundScript.cs" />
      <Compile Include="Assets\tigerController.cs" />
      <Compile Include="Assets\wolfController.cs" />
      <Compile Include="Assets\wolfText.cs" />

@@ -106,13 +106,13 @@ public class animalInteraction : MonoBehaviour {
 	float DetermineMinDistance() {
 		float minDistance;
 		if (currentSelected == tiger) {
-			minDistance = Mathf.Min (Mathf.Min (distanceToWolf, distanceToHorse), distanceToKitten);
+			minDistance = Mathf.Min (Mathf.Min (distanceToWolf, distanceToHorse), distanceToKitten)/2;
 		} else if (currentSelected == wolf) {
-			minDistance = Mathf.Min (Mathf.Min (distanceToTiger, distanceToHorse), distanceToKitten);
+			minDistance = Mathf.Min (Mathf.Min (distanceToTiger, distanceToHorse), distanceToKitten)/2;
 		} else if (currentSelected == kitten) {
-			minDistance = Mathf.Min (Mathf.Min (distanceToTiger, distanceToWolf), distanceToHorse);
+			minDistance = Mathf.Min (Mathf.Min (distanceToTiger, distanceToWolf), distanceToHorse)/2;
 		} else {
-			minDistance = Mathf.Min (Mathf.Min (distanceToTiger, distanceToWolf), distanceToKitten);
+			minDistance = Mathf.Min (Mathf.Min (distanceToTiger, distanceToWolf), distanceToKitten)/2;
 		}
 		return minDistance;
 	}
