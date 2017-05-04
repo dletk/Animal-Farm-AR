@@ -37,7 +37,7 @@ public class InfoScript : MonoBehaviour {
 		if (displayOn) {
 			GUI.contentColor = Color.yellow;
 			InitStyles();
-			GUI.Box (new  Rect(600, 50, 700, 500), displayText.text, currentStyle);
+			GUI.Box (new  Rect(600, 50, 1400, 1000), displayText.text, currentStyle);
 
 		}
 	}
@@ -56,7 +56,7 @@ public class InfoScript : MonoBehaviour {
 		if( currentStyle == null )
 		{
 			currentStyle = new GUIStyle( GUI.skin.box );
-			currentStyle.fontSize = 30;
+			currentStyle.fontSize = 40;
 			currentStyle.wordWrap = true;
 			currentStyle.alignment = TextAnchor.MiddleCenter;
 			currentStyle.normal.background = MakeTex( 2, 2, new Color( 5/225f, 51/255f, 141f, 0.3f ) );
